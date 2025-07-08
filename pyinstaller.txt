@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --add-binary "C:\Users\lanbing\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyzbar\libiconv.dll;pyzbar" --add-binary "C:\Users\lanbing\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyzbar\libzbar-64.dll;pyzbar" totp_manager.py
